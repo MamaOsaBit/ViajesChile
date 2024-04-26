@@ -1,7 +1,18 @@
+/* body */
 body{
     background-color: black;
     color: white;
 }
+.contenedor{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.t-all{
+    font-weight: bold;
+}
+
+/* NAV */
 .bd-example{
     margin-top: -100px;
     
@@ -19,15 +30,7 @@ body{
     color: white;
 }
 
-.contenedor{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-.t-all{
-    font-weight: bold;
-}
-
+/* contenido */
 .fa-solid{
     background-color: aqua;
     font-size: 30px;
@@ -39,6 +42,14 @@ body{
     width: 100%;
 }
 
+/* card */
 .card-body{
     background-color: aqua;
 }
+
+.card-img-top{
+    height: 272px;
+}
+
+
+
