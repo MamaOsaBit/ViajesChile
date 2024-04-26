@@ -2,14 +2,21 @@ body{
     background-color: black;
     color: white;
 }
-.navbar{
+.bd-example{
     margin-top: -100px;
+    
 }
-.nav-link{
-    color: white;
+.navbar-nav{
+    margin-right: 10%;
 }
+
 .trn{
     background-color: transparent !important;
+    z-index: 99;
+}
+
+.nav-link{
+    color: white;
 }
 
 .contenedor{
