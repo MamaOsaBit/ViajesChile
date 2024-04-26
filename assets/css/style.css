@@ -1,3 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+}
 .navbar{
-    background-color: transparent;
+    margin-top: -100px;
+}
+.nav-link{
+    color: white;
+}
+.trn{
+    background-color: transparent !important;
+}
+
+.contenedor{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.t-all{
+    font-weight: bold;
+}
+
+.fa-solid{
+    background-color: aqua;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 0px 3px 3px;
+}
+
+#iconos{
+    width: 100%;
 }
