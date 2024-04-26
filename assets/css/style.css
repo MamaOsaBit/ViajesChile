@@ -13,10 +13,7 @@ body{
 }
 
 /* NAV */
-.bd-example{
-    margin-top: -100px;
-    
-}
+
 .navbar-nav{
     margin-right: 10%;
 }
@@ -28,6 +25,11 @@ body{
 
 .nav-link{
     color: white;
+}
+/* carrusel */
+.bd-example{
+    margin-top: -100px;
+    
 }
 
 /* contenido */
