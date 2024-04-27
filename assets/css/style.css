@@ -13,13 +13,24 @@ body{
 }
 
 /* NAV */
+.navbar-collapse{
+    top: auto;
+    left: auto;
+    right: 0;
+    width: auto;
+}
+@media (max-width: 992px) {
+    .navbar-collapse{
+        z-index: 1;
+        }
+    }
 
 .navbar-nav{
     margin-right: 10%;
 }
 
 .trn{
-    background-color: transparent !important;
+    background-color: rgba(148, 148, 148, 0.5) !important;
     z-index: 99;
 }
 
@@ -28,7 +39,7 @@ body{
 }
 /* carrusel */
 .bd-example{
-    margin-top: -100px;
+    margin-top: -63px;
     
 }
 
@@ -75,7 +86,4 @@ footer{
     display: inline-block;
     font-size: 30px;
     padding: 0px 0px 3px 3px;
-
 }
-
-
