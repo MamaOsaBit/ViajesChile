@@ -1,90 +1,93 @@
 /* body */
-body{
+body {
+    padding-top: -56px; /* Altura del navbar para que el contenido no quede oculto debajo del mismo */
     background-color: black;
     color: white;
 }
-.contenedor{
+
+.contenedor {
     margin-left: 5%;
     margin-right: 5%;
 }
 
-.t-all{
+.t-all {
     font-weight: bold;
 }
 
 /* NAV */
-.navbar-collapse{
-    top: auto;
-    left: auto;
+.navbar {
+    background-color: rgba(107, 107, 107, 0.397) !important;  /* Navbar transparente */
+   
+}
+
+.navbar-collapse {
+    position: fixed;
+    top: 56px;
+    left: 0;
     right: 0;
-    width: auto;
-}
-@media (max-width: 992px) {
-    .navbar-collapse{
-        z-index: 1;
-        }
-    }
-
-.navbar-nav{
-    margin-right: 10%;
-}
-
-.trn{
-    background-color: rgba(148, 148, 148, 0.5) !important;
     z-index: 99;
+    background-color: rgba(107, 107, 107, 0.397);
 }
 
-.nav-link{
+.navbar-collapse a {
+    text-align: center;
+    padding: 10px;
+    display: block;
     color: white;
 }
+
+.nav-link {
+    color: white;
+}
+
 /* carrusel */
-.bd-example{
+.bd-example {
     margin-top: -100px;
-    
+
 }
 
 /* contenido */
-.fa-solid{
+.fa-solid {
     background-color: aqua;
     font-size: 30px;
     text-align: center;
     padding: 3px 3px;
 }
 
-#iconos{
+#iconos {
     width: 100%;
 }
 
 /* card */
-.card-body{
+.card-body {
     background-color: aqua;
 }
 
-.card-img-top{
+.card-img-top {
     height: 272px;
 }
 
 /* footer */
-footer{
+footer {
     background-color: aqua;
 }
 
-.logo-f{ /* logo footer */
+.logo-f {
+    /* logo footer */
     margin-top: 20px;
     margin-left: 13%;
     text-decoration: none;
     font-size: 30px;
 }
-.icon{
+
+.icon {
     text-align: center;
 }
 
-#icon{
+#icon {
     padding: 7px;
     display: inline-block;
     font-size: 30px;
     padding: 0 0 3px 3px;
 
 }
-
-
