@@ -1,6 +1,5 @@
 /* body */
 body {
-    padding-top: -56px; /* Altura del navbar para que el contenido no quede oculto debajo del mismo */
     background-color: black;
     color: white;
 }
@@ -16,34 +15,21 @@ body {
 
 /* NAV */
 .navbar {
-    background-color: rgba(107, 107, 107, 0.397) !important;  /* Navbar transparente */
-   
-}
-
-.navbar-collapse {
-    position: fixed;
-    top: 56px;
-    left: 0;
-    right: 0;
-    z-index: 99;
-    background-color: rgba(107, 107, 107, 0.397);
+    background-color: rgba(107, 107, 107, 0.397) !important;
+    position: absolute; /* Posición absoluta para solapar */
+    width: 100%; /* Ocupar todo el ancho */
+    z-index: 1000; /* Asegurar que esté por encima del carrusel */
 }
 
 .navbar-collapse a {
     text-align: center;
-    padding: 10px;
     display: block;
-    color: white;
-}
-
-.nav-link {
     color: white;
 }
 
 /* carrusel */
 .bd-example {
-    margin-top: -100px;
-
+    margin-top: -63px;
 }
 
 /* contenido */
