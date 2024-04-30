@@ -2,6 +2,8 @@
 body {
     background-color: black;
     color: white;
+    transition: filter 0.3s;
+    /* Transición para suavizar el efecto */
 }
 
 .contenedor {
@@ -16,9 +18,12 @@ body {
 /* NAV */
 .navbar {
     background-color: rgba(107, 107, 107, 0.397) !important;
-    position: absolute; /* Posición absoluta para solapar */
-    width: 100%; /* Ocupar todo el ancho */
-    z-index: 1000; /* Asegurar que esté por encima del carrusel */
+    position: absolute;
+    /* Posición absoluta para solapar */
+    width: 100%;
+    /* Ocupar todo el ancho */
+    z-index: 1000;
+    /* Asegurar que esté por encima del carrusel */
 }
 
 .navbar-collapse a {
@@ -45,6 +50,20 @@ body {
 }
 
 /* card */
+
+.card {
+    transition: transform 0.3s; /* Transición para suavizar el efecto */
+}
+
+.card:hover {
+    transform: scale(1.1); /* Hace que la tarjeta se vea un poco más grande al pasar el ratón */
+    z-index: 1; /* Asegura que la tarjeta resaltada esté por encima de las demás */
+}
+
+.highlight-card {
+    filter: none; /* Quitar el filtro de desenfoque de la tarjeta resaltada */
+}
+
 .card-body {
     background-color: aqua;
 }
@@ -60,8 +79,6 @@ footer {
 
 .logo-f {
     /* logo footer */
-    margin-top: 20px;
-    margin-left: 13%;
     text-decoration: none;
     font-size: 30px;
 }
